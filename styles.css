@@ -1,0 +1,105 @@
+
+.BC {
+    background-color: #394B58;
+    color: #fff;
+}
+
+.table_centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 270pt;
+    Columns: 2;
+}
+
+.Links1 {
+    text-align: right;
+    font-size: 13px;
+    vertical-align: bottom;
+    line-height: 4px;
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+
+.Border {
+    border: 3pt;
+    border-color: black;
+    border-style: solid;
+    
+}
+
+.Bigger_Logo {
+    height: 100pt;
+    vertical-align: bottom;
+}
+
+.low {
+    line-height: 1.9;
+}
+
+.Hover {
+    cursor: pointer;
+}
+
+.Links2 {
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.InputBox {
+    width: 100%;
+    height: 38px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: none;
+    box-sizing: border-box;
+    transition: all .2s ease-out;
+    border-width: 1px;
+    border-style: solid;
+    outline-color: transparent;
+    outline-offset: -12px;
+    background: #fff;
+    padding: 8px 12px;
+    -webkit-appearance: none;
+    border-color: #d8e0e6;
+    outline-style: solid;
+    outline-width: 12px;
+}
+
+.Spacing {
+    border-spacing: 5px;
+}
+
+.Check_Text {
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+}
+
+.Forgot {
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+
+.SignIn {
+    background: #394B58;
+    color: white;
+    border: 1px solid;
+    border-color: #c7cdd1;
+    border-radius: 3px;
+    padding: 8px 14px;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 20px;
+    cursor: pointer;
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    width: 86pt;
+    height: 25pt;
+/*    position: absolute;
+    position: absolute; right: 500px; */
+}
+
+.Right {
+    background-color: black;
+}
