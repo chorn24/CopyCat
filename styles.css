@@ -96,10 +96,76 @@
     font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     width: 86pt;
     height: 25pt;
-/*    position: absolute;
-    position: absolute; right: 500px; */
+    margin-left: auto;
+    display:flex;
+    align-items: center;
+    text-align: center;   
+}
+
+.SignIn:hover {
+    background-color: #4f5c69;
 }
 
 .Right {
-    background-color: black;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+.BottomBorder {
+    border-bottom: white 1px solid;
+}
+
+.table_centered2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 225pt;
+    Columns: 4;
+}
+
+.SocialButton {
+    background-color: #394B58;
+    border: solid #394B58 1px;
+    padding: 12px 14px;
+    width: 100%;
+}
+
+.SocialButton2 {
+    background-color: #394B58;
+    border: solid #394B58 1px;
+    padding: 12px 14px;
+    width: 100%;
+    
+}
+
+.SocialSize {
+    width: 26px;
+    height: 26px;
+}
+
+.SocialButton:hover {
+    transition: border 0.5s;
+    border: white 1px solid;
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+}
+
+.SocialButton2:hover {
+    transition: border 0.5s;
+    border: white 1px solid;
+    border-radius: 3px;
+    transition-timing-function: ease-in-out;
+}
+
+.Bottom_Text {
+    text-align: center;
+    font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+}
+
+.Instructure {
+    height: 22pt;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
 }
